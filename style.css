@@ -3,16 +3,24 @@
 
 .font{
     font-family: "Playwrite BE VLG", cursive;
-    font-weight: 400;
+    font-weight: 200;
+    
+    
 
 
 }
-body{font-family: "Inter", sans-serif;
+body{ 
+    background-color: black;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;}
+    font-style: normal;
+
+}
 *{margin: 0%;
-padding: 0px;}
+padding: 0px;
+
+}
 
 /* shared styles */
 .btnprimary{
@@ -45,17 +53,17 @@ padding: 0px;}
     text-align: left;
 }
 .banner{
-    width: 100%;
+    
     height: 715px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%) rgba(17, 17, 17, 0.479)
+    background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.61),rgba(119, 119, 119, 0.397) 100%) rgba(17, 17, 17, 0.226)
     ;
     box-sizing: border-box;
     border: 1px solid;
+    
 }
-nav{width:85%;
+nav{ justify-content: center;
     height: 45px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 460px;
     margin: 57px 0px 0px 190px;
@@ -88,12 +96,12 @@ nav{width:85%;
     border-radius: 46px;
     background-color: #E6533C   ;
 }
+
 .getbody{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 90px;
-    width: 85%;
+    gap: 100px;
     margin-top: 32px;
 }
 .getbodycontents{
@@ -112,7 +120,7 @@ nav{width:85%;
     height: 280px;
     font-size: 5rem;
     font-weight: 900;
-    line-height: 120%;
+    line-height: 90%;
     text-align: left;
 }
 .bodyimage{
@@ -144,11 +152,12 @@ color: white;}
     border: 1px solid rgba(255, 255, 255, 0.116) ;
     box-sizing: border-box;
     border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background-color: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    background-color: rgba(48, 48, 48, 0.11);
     position: absolute;
+    margin-top: -160px;
+    left: -70px;
     
-
 }
 .bodybox1ball{
     width: 40px;
@@ -157,12 +166,92 @@ color: white;}
     border-radius: 50%;
     background-color: #E6533C;
 }
+.imgcontent{position: relative;}
 .b350{
     color:#FAFAF9 ;
     font-size: 1.5rem;
     font-weight: 900;
+    
 }
 .vt{
-    color: rgba(239, 237, 232, 0.65);font-size: 16px;
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
     font-weight: 400;
 }
+#fontvideo{
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.bodybox2{ 
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.116) ;
+    box-sizing: border-box;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(48, 48, 48, 0.479);
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    text-align: center;
+
+}
+
+    
+.box2title{
+        font-size: 2.3rem;
+        font-weight: 900;
+        color: white;
+        margin-top: 5px;
+    }
+main{background-color: black;}
+
+.change-ur-habit{ width: 1044px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    
+    
+}
+.change{  width: 670px;
+    height: 120px;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.change-title{
+    font-size: 3rem;
+    font-weight: 900 ;
+    text-align: center;
+    margin-top: 100px;
+}
+.change-descrip{
+    text-align: center;
+    margin-top: 14px;
+}
+.change-img-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40PX;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+
+}
+.habit-name, .habit-descrip{
+    text-align: center;
+}
+{
+    
+}
+.habit-img{
+    border-radius: 50%;
+}
+
