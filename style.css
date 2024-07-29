@@ -205,9 +205,14 @@ color: white;}
         color: white;
         margin-top: 5px;
     }
-main{background-color: black;}
+/* main section starts here */
+
+main{background-color: black;
+
+}
 
 .change-ur-habit{ width: 1044px;
+    height: 452px;
     margin: 0px auto;
     justify-content: center;
     align-items: center;
@@ -218,13 +223,7 @@ main{background-color: black;}
 .change{  width: 670px;
     height: 120px;
     text-align: center;
-    /* justify-content: center;
-    align-items: center; */
 }
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .change-title{
     font-size: 3rem;
     font-weight: 900 ;
@@ -248,10 +247,44 @@ main{background-color: black;}
 .habit-name, .habit-descrip{
     text-align: center;
 }
-{
-    
-}
+
 .habit-img{
     border-radius: 50%;
 }
+/* section run */
+.run-extra-mile{
+    width: 1060px;
+    height: 370px;
+    margin: 0px auto;
+    display: flex;
+    gap:165px ;
+    border-radius: 18px;
+    border: 1px solid none;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+.run-contents{
+    width: 443px;
+    height: 290px;
+    margin-left: 54px;
+    
+}
+.run-img{
+    width: 365px;
+    height: 310px;
+    border-radius: 18px;
+    border: 1px solid none;
+    margin:30px ;
+     
+}
+.run-title{
+    margin-top: 40px;
+    text-align: left;
+}
+.run-descrip{
+    margin-top: 14px;
+    text-align: left;
+}
+
 
