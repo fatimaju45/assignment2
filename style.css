@@ -4,16 +4,11 @@
 .font{
     font-family: "Playwrite BE VLG", cursive;
     font-weight: 200;
-    
-    
-
-
 }
 body{ 
     background-color: black;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 
 }
@@ -286,5 +281,76 @@ main{background-color: black;
     margin-top: 14px;
     text-align: left;
 }
+.BMI{
+    margin-bottom: 88px;
+}
+/* CAlculator Section */
 
+.calculator{ 
+    height: 487px;
+    background-color:#222222 ;
+    border: 1px solid none;
+    margin: 0px auto;
+    display: flex;
+    gap: 175px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+table{border-collapse: collapse;
+    width: 310px;
+    height: 215px;
+    margin-top: 52px ;
+    
+}
+table,th, td {
+    
+    color: rgba(255, 255, 255, 0.219);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    }
+    th {
+        color: white;
+    }
+.caption{
+    margin-bottom: 14px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color:white ;
+    text-align: left;
+
+}
+
+
+.bmi-chart{
+    width: 577px;
+    height: 385px;
+    border: 1px solid none;
+}
+.chart-scale{ 
+    margin-top: 2.1rem;
+    width: 577px;
+    height: 168px;
+    display: grid;
+    grid-template-columns: repeat(2,  auto );
+    gap: 12px;
+    
+    
+}
+.bmi-chart-list{
+    width: 577px ;
+    height: 385px;
+}
+input, select{
+    
+    border-radius: 8px;
+    padding: 12px;
+    
+    background-color:rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.activity-factor{}
 
