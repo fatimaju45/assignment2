@@ -23,7 +23,7 @@
         <section class="getbody">
         <div class="getbodycontents">
             <h1 class="getbodytitle white">
-                Get body in <span class="font">shape</span> & stay healthy
+                Get body in <span class="font"><i>shape</i></span> & stay healthy
             </h1>
             <p class="offwhite font16 bodydescrip">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
             <div class="button">
@@ -100,14 +100,10 @@
             </div>
             <img class="run-img" src="images/run1.jpg" alt="">
         </section>
-      <!-- 
-        
-
-    
-        
         <section class="BMI">
             <h1 class="white change-title">BMI Calculator</h1>
             <p class="offwhite change-descrip">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        
         </section>
         <section class="calculator-bg">
             <div class="calculator">
@@ -145,13 +141,21 @@
                 <div class="bmi-chart">
                     <h3 class="caption">Calculate your BMI</h3>
                     <p class="offwhite">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                    <div >
-                        <form class="chart-scale offwhite" action="">
-                            <input type="number" placeholder="Height/cm">
+                    <div class="chart-scale">
+                         <form class=" form offwhite" action="">
+                            <div class="hw">
+                                <input type="number" placeholder="Height/cm">
                             <input type="number" placeholder="Weight/kg">
-                            <input type="number" placeholder="Age">
-                            <select name="" id=""></select>
-                            <select class="activity-factor" name="" id=""></select>
+                            </div>
+                            <div class="hw"><input type="number" placeholder="Age">
+                                <select class="select" name="" id="sex">
+                                    <option value="sex">Sex</option>
+                                </select>
+                            </div>
+                            
+                            <select class="activity-factor" name="" id="">
+                                <option value="">Select an activity factor</option>
+                            </select>
                             
                         </form>
                         <button class="btnprimary btn-a btn-cal white">Calculate</button>
@@ -162,13 +166,14 @@
     
 
             </div>
+      
         </section>
         <section class="BMI">
             <h1 class="white change-title">Meet Our Team</h1>
             <p class="offwhite change-descrip">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
         </section>
         <section class="meet-team">
-            <div>
+            <div class="team-div">
                 <img src="images/trainer1.png" alt="" class="team-image">
             <div class="team-title">
                 <p class="team-name white">Jerome Bell</p>
@@ -211,14 +216,72 @@
                 </div>
             </div>
         </section>
+        <section >
+            <h1 class="white change-title">Choose Your Plans</h1>
+            <p class="offwhite change-descrip">Get started with our exclusive features at an affordable price!</p>
+            <div class="plan-section">
+                <div class="plan-card1">
+                    <img src="images/plan1.jpg" alt="" class="planimage">
+                    <div class="price">
+                    <p class="plan-title">Basic</p>
+                    <p class="money">$24.99/<span class="month">month</span> </p>
+                    </div>
+                    
+                    <p class="offwhite plan-descrip ">Start your fitness journey with access to all essential facilities.</p>
+                    <hr>
+                    <ul>
+                        <li>Access to basic equipment for 3hours during </li>
+                        <li>locker room access</li>
+                        <li>Free introductory fitness assesment</li>
+                         
+                        
+                    </ul>
+                    <button class="btnprimary btn-a btn-cal white">Get Started</button>
+                </div>
+                <div class="plan-card1">
+                    <img src="images/victor-freitas-WvDYdXDzkhs-unsplash.jpg" alt="" class="planimage">
+                    <div class="price price2">
+                        <p class="plan-title">Standard </p>
+                        <p class="money">$49.99/<span class="month">6month</span> </p>
+                        </div>
+                    <p class="offwhite plan-descrip">Step up your fitness game with extended access.</p>
+                    <hr>
+                    <ul>
+                        <li>Unlimited access to gym equipment during all operating hours</li>
+                        <li>Group fitness classes included</li>
+                        <li>2guests passes per month</li>
+                
+                        
+                    </ul>
+                    <button class="btnprimary btn-a btn-cal white">Get Started</button>
+                </div>
+                <div class="plan-card1">
+                    <img src="images/plan3.jpg" alt="" class="planimage">
+                    <div class="price price2">
+                        <p class="plan-title">Premium</p>
+                        <p class="money">$99.99/<span class="month">year</span> </p>
+                    </div>
+                    <p class="offwhite plan-descrip">Experience the ultimate fitness with VIP treatment and advanced resources.</p>
+                    <hr>
+                    <ul>
+                        <li>24/7 gym access</li>
+                        <li>Unlimited group fitness classes</li>
+                        <li>Personal training sessions</li>
+                        <li>Complimentary nutritional consultation</li>
+                        
+                    </ul>
+                    <button class="btnprimary btn-a btn-cal white btn2">Get Started</button>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
-       <div class="footer-section">
+    <div class="footer-section">
         <div class="footer-fitness">
             <h1 class="footer-title navtitle orangecolor"><i>Fitness</i></h1>
             <p class="footer-descrip offwhite">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-           </div>
+        </div>
            <div class="get-started-box">
             <div class="footer-card1">
                 <h3 class="getstarted caption">Get Started</h3>
@@ -245,4 +308,4 @@
     </footer>
     
 </body>
-</html> -->
+</html>
